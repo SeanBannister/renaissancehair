@@ -1049,7 +1049,6 @@ fnRenderDCnt =function(cnt){
     var applicationName = zpPos[0].getAttribute("data-applicationName");
     var formName = zpPos[0].getAttribute("data-formName");
     var viewname = zpPos[0].getAttribute("data-templateid").replace("dyncont","");
-    //var filename="/view/view"+applicationName+"_"+formName+"_"+viewname+".txt";//NO I18N
     try{
         var xmlHttp;
         if(window.XMLHttpRequest)

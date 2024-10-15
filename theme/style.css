@@ -773,7 +773,6 @@ color:#ffffff;
 }
 /*--------------------------- THEME FOOTER AREA CSS START ----------------------------------*/
 .themeFooterArea {
-background-color:#FFFFFF;
  background-image:none;
  background-position:top left;
  background-repeat:repeat;
@@ -792,7 +791,7 @@ background-color:#FFFFFF;
  -o-border-radius:0;
  font-family:'Roboto', Helvetica, Arial, sans-serif;
  font-size:14px;
- color:#888888;
+ color:#FFFFFF;
     padding: 35px 0;
     height: auto !important;
     position: relative;

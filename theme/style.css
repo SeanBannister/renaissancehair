@@ -10,8 +10,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol {
 body {
  background-color:#E861AA;
  background-image:url('/zimages/cssVarBG02.png');
- background-image:url('/zimages/cssVarBG02.png');
- background-image:url('/zimages/cssVarBG02.png');
  background-position:left top;
  background-repeat:repeat;
  background-attachment:scroll;
@@ -317,7 +315,7 @@ background-repeat:repeat;
 /*--------------------------------------------------------- THEME SEARCH BOX AREA CSS END ------------------------------------------------------------------------------------*/
 /* -------------------------------- THEME BRANDING AREA CSS START -------------------------------- */
 .themeBrandingArea {
-    padding: 35px 0 50px;
+    padding: 45px 0 50px;
     text-align: center;
 }
 .themeLogoArea {

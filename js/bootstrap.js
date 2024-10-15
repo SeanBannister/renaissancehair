@@ -360,15 +360,6 @@ onloadFunction = function() {
          }   
     }
     getPortalUserName();
-    if(document.getElementById('nav-top')){
-    try{
-        if(parent.document.getElementById("zp_tmplcustom")==null ||parent.document.getElementById("zp_tmplcustom").style.display=="block"){
-            navActivate();
-        }
-    }catch(e){
-        navActivate();
-    }
-    }
     var winHref = window.location.href;
     if(winHref.indexOf("zc_success")!=-1){
         var loc =winHref.split("?")[0];
@@ -2419,7 +2410,6 @@ window.onresize=function(){
         prevWidth=window.innerWidth;
         if(document.getElementById("nav-top")){
         revort()
-        navActivate();
         prevWidth=window.innerWidth;
         var navShowing=document.getElementById(document.getElementById("nav-top").getAttribute('navshowing'));
         if(navShowing!=null){

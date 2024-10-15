@@ -146,6 +146,10 @@ td {
 .themeNavigationArea {
     width: 78%;
 }
+#navigation {
+    display: flex;
+    justify-content: center;
+}
 #navigation ul {
     margin: 0px;
     padding: 0px;
@@ -172,7 +176,7 @@ td {
 }
 #navigation li:hover a, #navigation li.selected a, #navigation li.active a {
 color:#E861AA;
-background-color:#3D383B;
+background-color:#5d1440;
 background-image:none;
 background-repeat:repeat;
 background-position:left top;
@@ -1687,9 +1691,6 @@ form ul li label, form ul li div {
 .themeNavigationArea {
     overflow: hidden;
 }
-#navigation li {
-    float: right;
-}
 .themeSearchContainer {
     float: none;
     margin-top: 0;
@@ -1794,9 +1795,6 @@ form ul li label, form ul li div {
 .themeNavigationArea {
     overflow: hidden;
 }
-#navigation li {
-    float: right;
-}
 .themeSearchContainer {
     float: none;
     margin-top: 0;
@@ -1900,9 +1898,6 @@ form ul li label, form ul li div {
 }
 .themeNavigationArea {
     overflow: hidden;
-}
-#navigation li {
-    float: right;
 }
 .themeSearchContainer {
     float: none;
